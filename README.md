@@ -1,6 +1,14 @@
 # SULO
 Code for SULO tool: consistency, internal validity, and Rasch analysis
 
+# Dependencies
+
+The code in this repository uses
+- Python: pandas, numpy, os, scipy, seaborn, matplotlib, xlrd, re
+- R: eRm, iarm, wrightmap, ltm
+
+A modified version of WrightMap is also used. It can be downloaded from https://github.com/eglerean/wrightmap .
+
 # Raw data description
 
 The data is not included in the repository as it contains personal data that can be linked to an individual. Participants were not asked about the permission to share or open these data. The data is structures so that for each school, an XLS file was provided including the following columns:
@@ -61,7 +69,6 @@ each row contains the scored answer of a participant:
 
 Missing values were replaced with median (see python code for preprocessing)
 
-
 ## 4. Item Reponse Theory analysis using the Partial Credit Model
 
 Script: `r02_IRT_PCM.r`
@@ -76,5 +83,15 @@ We report:
 5. Person fit summary statistics and person fit map
 6. test for the unidimensionality of the data
 7. test for local dependence of items
+8. Classical Wright map plot
 
+## Improvements
+
+The following improvements to the tool can be made
+
+1. Add a synthetic data file for testing the script
+2. Improving code readability
+3. Removing hard-coded paths for reusability
+
+If you can suggest further improvements, please do not hesitate to open a github issue or email enrico *dot* glerean *at* aalto *dot* fi.
 
