@@ -1,6 +1,13 @@
 # SULO
 Code for SULO tool: consistency, internal validity, and Rasch analysis
 
+# How to cite
+
+If you find the code in this repository useful for your studies, you can cite it by citing:
+
+> Glerean, N., Talman, K., Glerean, E., Hupli, M., Haavisto, E. (2023) "Development and Psychometric Testing of the Perception of Nursing Profession Instrument (PNPI)" Journal of Advanced Nursing.
+
+
 # Dependencies
 
 The code in this repository uses
